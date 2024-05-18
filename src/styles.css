@@ -1,59 +1,65 @@
 body {
   background-color: #f3f6fb;
 }
-.ubuntu-light {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.ubuntu-regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ubuntu-medium {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ubuntu-bold {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.ubuntu-light-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.ubuntu-regular-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ubuntu-medium-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.ubuntu-bold-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
 
 .weather-app {
   background-color: white;
-  max-width: 600px;
+  max-width: 550px;
   margin: 50px auto;
   border-radius: 18px;
   padding: 40px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0);
+}
+button {
+  padding: 40px;
+  border-radius: 20px;
+}
+h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.temperature {
+  position: relative;
+  bottom: 115px;
+  left: 300px;
+}
+.temperature-value {
+  font-size: 75px;
+  font-weight: bold;
+}
+.temperature-icon {
+  font-size: 38px;
+  position: relative;
+  bottom: 8px;
+}
+.values {
+  color: rgb(21, 143, 243);
+  font-weight: bold;
+}
+.search-form-input {
+  background-color: #f3f6fb;
+  border: 0cm;
+  border-radius: 16px;
+  width: 80%;
+  padding: 15px 5px;
+  font-size: 20px;
+  opacity: 50%;
+}
+.search-form-button {
+  background-color: antiquewhite;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 3px 2px grey;
+  padding: 10px 5px;
 }
