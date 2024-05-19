@@ -15,11 +15,11 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-forms">
           <input
             type="text"
             class="search-form-input"
-            id="search-bar"
+            id="search-form-input"
             placeholder="Enter city..."
             required
           />
@@ -27,14 +27,15 @@
         </form>
       </header>
       <main>
-        <h1>Paris</h1>
+        <h1 id="city">Paris</h1>
         <p>
           Tuesday <span class="values"> 14:39</span > scattered clouds
           <br />
           Humidity:<span class="values"> 66%</span> wind:<span class="values"> 3.13km/h</span>
           <div class="temperature">
           <span class="temperature-icon">🌤️</span>
-          <span class="temperature-value">19&deg;C</span>
+          <span class="temperature-value">19</span>
+          <span class="temperature-sign">&deg;C</span>
           </div>
         </p>
       </main>

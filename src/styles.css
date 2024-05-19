@@ -1,7 +1,9 @@
 body {
   background-color: #f3f6fb;
 }
-
+main {
+  padding: 20px 0 0 0;
+}
 .weather-app {
   background-color: white;
   max-width: 550px;
@@ -28,20 +30,30 @@ footer {
   font-family: "Fira Sans", sans-serif;
   font-weight: 200;
   font-style: normal;
+  text-align: center;
+  font-size: 12px;
+}
+a {
+  color: rgb(21, 143, 243);
 }
 .temperature {
   position: relative;
   bottom: 115px;
-  left: 300px;
+  left: 315px;
 }
 .temperature-value {
-  font-size: 75px;
+  font-size: 80px;
   font-weight: bold;
 }
 .temperature-icon {
   font-size: 38px;
   position: relative;
   bottom: 8px;
+}
+.temperature-sign {
+  font-size: 38px;
+  position: relative;
+  bottom: 30px;
 }
 .values {
   color: rgb(21, 143, 243);
