@@ -3,6 +3,9 @@ function refreshWeather(response) {
   let weatherElement = document.querySelector("#temperature-value");
   let temp = Math.round(response.data.temperature.current);
   weatherElement.innerHTML = temp;
+  let cityElement = document.querySelector("#city");
+
+  cityElement.innerHTML = response.data.city;
 }
 
 function searchCity(city) {
@@ -13,9 +16,10 @@ function searchCity(city) {
 function completeSearch(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-form-input");
-  let cityElement = document.querySelector("#city");
-  cityElement.innerHTML = searchInputElement.value;
+
   searchCity(searchInputElement.value);
 }
 let formElement = document.querySelector("#search-forms");
 formElement.addEventListener("submit", completeSearch);
+
+searchCity("Pietermaritzburg");
